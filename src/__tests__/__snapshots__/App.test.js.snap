@@ -306,7 +306,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
-                    value="4"
+                    value="2"
                   />
                   <button
                     class="btn btn-warning"
@@ -327,7 +327,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
-                    value="8"
+                    value="9"
                   />
                   <button
                     class="btn btn-warning"
@@ -369,7 +369,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
-                    value="4"
+                    value="5"
                   />
                   <button
                     class="btn btn-warning"
@@ -390,7 +390,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
-                    value="6"
+                    value="2"
                   />
                   <button
                     class="btn btn-warning"
@@ -411,7 +411,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
-                    value="9"
+                    value="3"
                   />
                   <button
                     class="btn btn-warning"

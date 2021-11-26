@@ -1,20 +1,35 @@
 import React, { useState } from 'react';
+import { array } from 'prop-types';
 import './App.css';
 import { Skills, Requirements, Achievements, RadarChart } from './components';
 
-const App = () => {
-  const [skills, setSkills] = useState([
+const App = (props) => {
+  const { _skills, _requirements, _achievements } = props;
+
+  const initialSkillsState = [
     'Thing 1',
     'Thing 2',
     'Thing 3',
     'Thing 4',
     'Thing 5',
     'Thing 6',
-  ]);
+  ];
 
-  const [requirements, setRequirements] = useState([2, 9, 3, 5, 2, 3]);
+  const initialRequirementsState = [2, 9, 3, 5, 2, 3];
 
-  const [achievements, setAchievements] = useState([4, 8, 3, 4, 6, 9]);
+  const initialAchievementsState = [2, 9, 3, 5, 2, 3];
+
+  const [skills, setSkills] = _skills
+    ? useState(_skills)
+    : useState(initialSkillsState);
+
+  const [requirements, setRequirements] = _requirements
+    ? useState(_requirements)
+    : useState(initialRequirementsState);
+
+  const [achievements, setAchievements] = _achievements
+    ? useState(_achievements)
+    : useState(initialAchievementsState);
 
   const handleChangeSkills = (index, e) => {
     e.preventDefault();
@@ -130,6 +145,12 @@ const App = () => {
       </div>
     </div>
   );
+};
+
+App.propTypes = {
+  _skills: array,
+  _requirements: array,
+  _achievements: array,
 };
 
 export default App;
