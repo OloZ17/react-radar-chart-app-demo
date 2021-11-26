@@ -1,4 +1,5 @@
 # A simple Demo App using [React.js](https://reactjs.org)
+![example workflow](https://github.com/OloZ17/react-radar-chart-app-demo/actions/workflows/node.js.yml/badge.svg)[![Coverage Status](https://coveralls.io/repos/github/OloZ17/react-radar-chart-app-demo/badge.svg?branch=main&service=github)](https://coveralls.io/github/OloZ17/react-radar-chart-app-demo?branch=main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
