@@ -24,6 +24,7 @@ const Skills = (props) => {
           />
           <button
             type="button"
+            data-testid="removeSkill-button"
             className="btn btn-danger"
             onClick={() => removeSkill(index)}
           >
@@ -33,6 +34,7 @@ const Skills = (props) => {
       ))}
       <div className="button-section">
         <button
+          data-testid="addSkill-button"
           className="btn btn-primary"
           type="button"
           onClick={() => addSkill()}

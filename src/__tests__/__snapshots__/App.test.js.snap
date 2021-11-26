@@ -35,6 +35,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -54,6 +55,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -73,6 +75,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -92,6 +95,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -111,6 +115,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -130,6 +135,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                 />
                 <button
                   class="btn btn-danger"
+                  data-testid="removeSkill-button"
                   type="button"
                 >
                   Remove
@@ -140,6 +146,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
               >
                 <button
                   class="btn btn-primary"
+                  data-testid="addSkill-button"
                   type="button"
                 >
                   Add
@@ -162,6 +169,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 1
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -169,6 +177,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -181,6 +190,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 2
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -188,6 +198,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -200,6 +211,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 3
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -207,6 +219,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -219,6 +232,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 4
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -226,6 +240,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -238,6 +253,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 5
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -245,6 +261,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -257,6 +274,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 6
                   </label>
                   <input
+                    data-testid="requirement-input"
                     name="requirement"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
@@ -264,6 +282,7 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetRequirement-button"
                     type="button"
                   >
                     Reset
@@ -283,13 +302,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 1
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="4"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset
@@ -302,13 +323,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 2
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="8"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset
@@ -321,13 +344,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 3
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="3"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset
@@ -340,13 +365,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 4
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="4"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset
@@ -359,13 +386,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 5
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="6"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset
@@ -378,13 +407,15 @@ exports[`Testing App() Component should take a snapshot 1`] = `
                     Thing 6
                   </label>
                   <input
-                    name="requirement"
+                    data-testid="achievement-input"
+                    name="achievements"
                     style="padding: 2px; width: 50px; text-align: center; margin-right: 5px; margin-left: 5px;"
                     type="number"
                     value="9"
                   />
                   <button
                     class="btn btn-warning"
+                    data-testid="resetAchievement-button"
                     type="button"
                   >
                     Reset

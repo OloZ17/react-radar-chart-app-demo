@@ -11,6 +11,7 @@ const Requirements = (props) => {
         <div className="form-inline form-group mb-2" key={index}>
           <label>{skills[index]}</label>
           <input
+            data-testid="requirement-input"
             name="requirement"
             value={requirement || 0}
             type="number"
@@ -25,6 +26,7 @@ const Requirements = (props) => {
           />
 
           <button
+            data-testid="resetRequirement-button"
             type="button"
             className="btn btn-warning"
             onClick={() => resetRequirement(index)}

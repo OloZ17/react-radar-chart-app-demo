@@ -12,7 +12,8 @@ const Achievements = (props) => {
         <div className="form-inline form-group mb-2" key={index}>
           <label>{skills[index]}</label>
           <input
-            name="requirement"
+            data-testid="achievement-input"
+            name="achievements"
             value={achievements || 0}
             type="number"
             onChange={(e) => handleChangeAchievement(index, e)}
@@ -26,6 +27,7 @@ const Achievements = (props) => {
           />
 
           <button
+            data-testid="resetAchievement-button"
             type="button"
             className="btn btn-warning"
             onClick={() => resetAchievement(index)}
@@ -39,10 +41,10 @@ const Achievements = (props) => {
 };
 
 Achievements.propTypes = {
-    skills: array,
-    achievements: array,
-    handleChangeAchievement: func,
-    resetAchievement: func,
-  };
+  skills: array,
+  achievements: array,
+  handleChangeAchievement: func,
+  resetAchievement: func,
+};
 
 export default Achievements;
