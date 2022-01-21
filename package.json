@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "canvas": "2.9.0",
-    "eslint-plugin-testing-library": "5.0.3"
+    "eslint-plugin-testing-library": "5.0.4"
   },
   "jest": {
     "collectCoverageFrom": [
