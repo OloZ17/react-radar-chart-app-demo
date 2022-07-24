@@ -3518,10 +3518,10 @@ char-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-2.0.0.tgz#16f98f3f874edceddd300fda5d58df380a7641a6"
   integrity sha512-oGu2QekBMXgyQNWPDRQ001bjvDnZe4/zBTz37TMbiKz1NbNiyiH5hRkobe7npRN6GfbGbxMYFck/vQ1r9c1VMA==
 
-chart.js@3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.8.1.tgz#b208c6b3a21f2daa1f9a8fbb95484fecad91150f"
-  integrity sha512-vGrPYJlvp6F2x/uF2PD+7+skzPCrMhJ8cpQJBDLPz98xNmzlz7cbo1N9bvbKffYfbHSnb1hA1UnTGxwCnW8DWQ==
+chart.js@3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-3.8.2.tgz#e3ebb88f7072780eec4183a788a990f4a58ba7a1"
+  integrity sha512-7rqSlHWMUKFyBDOJvmFGW2lxULtcwaPLegDjX/Nu5j6QybY+GCiQkEY+6cqHw62S5tcwXMD8Y+H5OBGoR7d+ZQ==
 
 check-types@^11.1.1:
   version "11.1.2"
