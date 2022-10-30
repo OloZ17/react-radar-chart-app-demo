@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "canvas": "2.10.1",
+    "canvas": "2.10.2",
     "eslint-plugin-testing-library": "5.9.1"
   },
   "jest": {
