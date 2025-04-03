@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "15.0.7",
     "@testing-library/user-event": "14.6.1",
-    "bootstrap": "5.3.3",
+    "bootstrap": "5.3.4",
     "chart.js": "3.9.1",
     "prettier": "3.5.3",
     "prop-types": "15.8.1",
