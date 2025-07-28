@@ -10,9 +10,9 @@
     "chart.js": "3.9.1",
     "prettier": "3.6.2",
     "prop-types": "15.8.1",
-    "react": "19.1.0",
+    "react": "19.1.1",
     "react-chartjs-2": "4.3.1",
-    "react-dom": "19.1.0",
+    "react-dom": "19.1.1",
     "react-resize-detector": "12.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "5.0.3"
